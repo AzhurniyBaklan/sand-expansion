@@ -1,0 +1,25 @@
+{
+"name": "Rock Crusher",
+"description": "Drills stone tiles, providing infinite sand on command. Requires water to soften the stone surface.",
+"details": "Fast. Significant percent of serpulo's surface is covered in SiO2, which makes this drill even more important. The only problem - if the stone is not present this drill becomes useless."
+"requirements":
+[silicon/80,
+ graphite/60,
+ metaglass/20,
+ titanium/40],
+"health": 400,
+"hasLiquids": "true",
+"hasPower": "true",
+"hasItems": "true",
+"updateEffect": "pulverize",
+"size": 3,
+"craftTime": 40,
+"consumes":
+{"power": 1.5,
+ "liquid": 
+ {"liquid": "water",
+  "amount": 0.22} },
+"outputItem": sand/4,
+"category": "production",
+"research": "pneumatic-drill"
+}
